@@ -4,8 +4,9 @@
     </head>
 
     <body>
-        <fieldset id="input">
+        <fieldset>
             <legend>Enter your code here:</legend>
+            <input type="text" id="input" />
         </fieldset>
         <style>
             #input {
@@ -15,9 +16,11 @@
               float: left;
             }
         </style>
+        <input type="button" onclick="run" value="Run" />
 
-        <fieldset id="output">
+        <fieldset>
             <legend>Console output:</legend>
+            <p id="output">
         </fieldset>
         <style>
             #output {
